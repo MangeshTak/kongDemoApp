@@ -3,7 +3,7 @@
 git clone https://github.com/MangeshTak/kongDemoApp.git \
 cd kongDemoApp
 
-Modify below details from src/config/db_connection.ts file.\
+Modify below details from src/config/db_connection.ts file.
 
   type: 'postgres', \
   host: 'localhost',\
