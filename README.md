@@ -62,3 +62,25 @@ req.body = versions entity object
 4: GET {base_url}/v1/versions/{id}
 
 5: GET {base_url}/v1/versions/
+
+
+
+
+## Below are the notes
+
+""""""""""""""
+- Completed required two APIs
+- Created CRUD endpoints for two APIs
+
+Assumptions
+ - Data is added accordingly in tables. (version count increases for service for respective addition in version table). (I added data manually for this task)
+ 
+Scope for improvement
+- Adding unit tests, API tests, etc
+- Better DB schema design with indexes and associations
+- Use of container for easy deployment
+- Better logging
+- Better exception handling
+- Format records data before sending to the UI (API response)
+
+"""""""""""""""""""
