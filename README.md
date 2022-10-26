@@ -29,6 +29,13 @@ $ npm run start
 1: API for returning services {supports pagination, sorting with column and order specified, filtering by specified search string}
 GET {base_uel}/v1/services/?limit=4&offset=0&column=version_count&order=DESC&searchString=se
 
+Below are the query params,
+limit = Number of records needed
+offset = Number of records need to skip
+column = column name specified for sorting (name | version_count)
+order = ASC | DESC
+
+
 2: for fetching specific service {returns all the versions for the specific service with the version url}
 GET {base_url}/v1/services/{id}
 
