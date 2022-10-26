@@ -5,12 +5,12 @@ cd kongDemoApp
 
 Modify below details from src/config/db_connection.ts file.\
 
-  type: 'postgres',
-  host: 'localhost',
-  port: 5431,
-  username: 'postgres',
-  password: 'password',
-  database: 'test',
+  type: 'postgres', \
+  host: 'localhost', \ 
+  port: 5431, \
+  username: 'postgres', \
+  password: 'password', \
+  database: 'test', \
 
 ## Installation
 
