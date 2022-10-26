@@ -1,7 +1,16 @@
 
 ## Clone the repository
-git clone https://github.com/MangeshTak/kongDemoApp.git
+git clone https://github.com/MangeshTak/kongDemoApp.git \
 cd kongDemoApp
+
+Modify below details from src/config/db_connection.ts file.\
+
+  type: 'postgres',
+  host: 'localhost',
+  port: 5431,
+  username: 'postgres',
+  password: 'password',
+  database: 'test',
 
 ## Installation
 
